@@ -21,26 +21,26 @@ FoamFile
     {
         type            patch;
         nFaces          200;
-        startFace       45600;
+        startFace       68200;
     }
     walls
     {
         type            wall;
         inGroups        List<word> 1(wall);
-        nFaces          3600;
-        startFace       45800;
+        nFaces          5600;
+        startFace       68400;
     }
     outlet
     {
         type            patch;
         nFaces          200;
-        startFace       49400;
+        startFace       74000;
     }
     atmosphere
     {
         type            patch;
-        nFaces          800;
-        startFace       49600;
+        nFaces          1200;
+        startFace       74200;
     }
 )
 
