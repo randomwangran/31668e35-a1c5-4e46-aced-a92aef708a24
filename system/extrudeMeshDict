@@ -20,17 +20,16 @@ sourcePatches (outlet);
 
 flipNormals false;
 
-extrudeModel        linearRadial;
+extrudeModel        linearDirection;
 
 nLayers             40;
 expansionRatio      1.0;
 
-
-linearRadialCoeffs
+linearDirectionCoeffs
 {
-    R               10;
-    // Optional inner radius
-    Rsurface        0.01;
+    axisPt          (0 0 0);
+    direction       (1 -0.2 -0.03);
+    thickness       40;
 }
 
 mergeFaces false;
